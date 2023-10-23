@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-def xml_to_txt(xml_file):
+def xml_to_txt(xml_file, txt_file):
     # Parsear el archivo XML
     tree = ET.parse(xml_file)
     root = tree.getroot()
