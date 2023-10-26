@@ -22,6 +22,7 @@ import streamlit as st
 import sys
 sys.path.append("C:\\Abel\\Trabajo\Proyectos Ciencia de Datos\\XML to txt Puertos TCP Nmap\\src")
 import xml_to_txt
+import txt_to_IP
 import base64
 
 def main():
@@ -33,9 +34,22 @@ def main():
     if uploaded_file is not None:
         st.success('Archivo cargado exitosamente!')
         text = xml_to_txt.xml_to_txt(uploaded_file,'txt_generado_del_xml.txt')
-        b64 = base64.b64encode(text.encode()).decode()  # Algunas cadenas de bytes, necesitas codificarlas
+        b64 = base64.b64encode(text.encode()).decode()  # Codificacion de cadenas de bytes
         linko= f'<a href="data:file/txt;base64,{b64}" download="txt_generado_del_xml.txt">Descargar archivo TXT</a>'
         st.markdown(linko, unsafe_allow_html=True)
+        button = st.button("Listado de puertos TCP abiertos en cada IP")
+        if button:
+            output_file = txt_to_IP.txt_to_IP(text, 'IP_con_puertos_abiertos.txt')
+            with open(output_file, 'r') as f:
+                contenido_txt_from_XML = f.read()
+            st.download_button(
+            label="Descargar archivo TXT",
+            data=contenido_txt_from_XML,
+            file_name="IP_con_puertos_abiertos.txt",
+            mime="text/plain",
+            )
+
+
 
     
 if __name__ == "__main__":

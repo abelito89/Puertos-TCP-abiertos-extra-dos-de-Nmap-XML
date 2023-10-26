@@ -1,13 +1,16 @@
 import re
 
-with open('/content/Subred63.txt', 'r') as f:
-    lines = f.readlines()
+def txt_to_IP(text, output_file):
+    lines = text.split('\n')
+    result = ''
     for line in lines:
         if 'Nmap scan report for' in line:
             ip = re.findall(r'[0-9]+(?:\.[0-9]+){3}', line)[0]
-            print('\n\n')
-            print(f'IP: {ip}')
+            result += '\n\n' + f'IP: {ip}\n'
         elif 'PORT' in line and 'STATE' in line and 'SERVICE' in line and 'VERSION' in line:
-            print(line.strip())
+            result += line.strip() + '\n'
         elif re.match(r'\d+/tcp', line):
-            print(line.strip())
+            result += line.strip() + '\n'
+    with open(output_file,'w') as f:
+        f.write(result)
+    return output_file

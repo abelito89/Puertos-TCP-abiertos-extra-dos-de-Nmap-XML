@@ -1,0 +1,1317 @@
+
+
+IP: 10.1.3.0
+
+
+IP: 10.1.3.2
+
+
+IP: 10.1.3.4
+
+
+IP: 10.1.3.6
+
+
+IP: 10.1.3.7
+
+
+IP: 10.1.3.8
+
+
+IP: 10.1.3.9
+
+
+IP: 10.1.3.10
+
+
+IP: 10.1.3.11
+
+
+IP: 10.1.3.12
+
+
+IP: 10.1.3.13
+
+
+IP: 10.1.3.14
+
+
+IP: 10.1.3.15
+
+
+IP: 10.1.3.16
+
+
+IP: 10.1.3.17
+
+
+IP: 10.1.3.18
+
+
+IP: 10.1.3.19
+
+
+IP: 10.1.3.20
+
+
+IP: 10.1.3.21
+
+
+IP: 10.1.3.22
+
+
+IP: 10.1.3.23
+
+
+IP: 10.1.3.24
+
+
+IP: 10.1.3.25
+
+
+IP: 10.1.3.26
+
+
+IP: 10.1.3.27
+
+
+IP: 10.1.3.28
+
+
+IP: 10.1.3.29
+
+
+IP: 10.1.3.31
+
+
+IP: 10.1.3.32
+
+
+IP: 10.1.3.33
+
+
+IP: 10.1.3.34
+
+
+IP: 10.1.3.35
+
+
+IP: 10.1.3.36
+
+
+IP: 10.1.3.37
+
+
+IP: 10.1.3.38
+
+
+IP: 10.1.3.39
+
+
+IP: 10.1.3.40
+
+
+IP: 10.1.3.41
+
+
+IP: 10.1.3.42
+
+
+IP: 10.1.3.43
+
+
+IP: 10.1.3.44
+
+
+IP: 10.1.3.45
+
+
+IP: 10.1.3.46
+
+
+IP: 10.1.3.47
+
+
+IP: 10.1.3.48
+
+
+IP: 10.1.3.49
+
+
+IP: 10.1.3.50
+
+
+IP: 10.1.3.51
+
+
+IP: 10.1.3.52
+
+
+IP: 10.1.3.54
+
+
+IP: 10.1.3.55
+
+
+IP: 10.1.3.56
+
+
+IP: 10.1.3.57
+
+
+IP: 10.1.3.58
+
+
+IP: 10.1.3.59
+
+
+IP: 10.1.3.1
+PORT   STATE    SERVICE VERSION
+22/tcp filtered ssh
+23/tcp filtered telnet
+
+
+IP: 10.1.3.3
+PORT    STATE    SERVICE VERSION
+21/tcp  open     ftp     vsftpd 2.0.8 or later
+22/tcp  filtered ssh
+23/tcp  open     telnet
+80/tcp  open     http    Huawei S5700-series switch httpd
+830/tcp open     ssh     Huawei VRP sshd (protocol 1.99)
+
+
+IP: 10.1.3.5
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Netgear FS726TP switch http config
+
+
+IP: 10.1.3.30
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp          vsftpd 2.0.3
+22/tcp   open  ssh          Dropbear sshd 0.52 (protocol 2.0)
+23/tcp   open  telnet       NASLite-SMB/Sveasoft Alchemy firmware telnetd
+80/tcp   open  http         WN httpd 2.4.6
+4003/tcp open  pxc-splr-ft?
+4006/tcp open  pxc-spvr?
+
+
+IP: 10.1.3.53
+PORT    STATE SERVICE      VERSION
+135/tcp open  msrpc        Microsoft Windows RPC
+445/tcp open  microsoft-ds Microsoft Windows XP microsoft-ds
+
+
+IP: 10.1.3.60
+PORT     STATE SERVICE    VERSION
+5060/tcp open  sip        Mitel SIP phone sipd 06.04.00.10 (model: 5324)
+5061/tcp open  tcpwrapped
+
+
+IP: 10.1.3.61
+PORT     STATE SERVICE    VERSION
+5060/tcp open  sip        Mitel SIP phone sipd 06.04.00.10 (model: 5324)
+5061/tcp open  tcpwrapped
+
+
+IP: 10.1.3.62
+PORT     STATE SERVICE    VERSION
+5060/tcp open  sip        Mitel SIP phone sipd 06.04.00.10 (model: 5324)
+5061/tcp open  tcpwrapped
+
+
+IP: 10.1.3.69
+
+
+IP: 10.1.3.70
+
+
+IP: 10.1.3.71
+
+
+IP: 10.1.3.72
+
+
+IP: 10.1.3.73
+
+
+IP: 10.1.3.74
+
+
+IP: 10.1.3.75
+
+
+IP: 10.1.3.76
+
+
+IP: 10.1.3.77
+
+
+IP: 10.1.3.78
+
+
+IP: 10.1.3.79
+
+
+IP: 10.1.3.80
+
+
+IP: 10.1.3.81
+
+
+IP: 10.1.3.82
+
+
+IP: 10.1.3.83
+
+
+IP: 10.1.3.84
+
+
+IP: 10.1.3.85
+
+
+IP: 10.1.3.86
+
+
+IP: 10.1.3.87
+
+
+IP: 10.1.3.89
+
+
+IP: 10.1.3.90
+
+
+IP: 10.1.3.91
+
+
+IP: 10.1.3.92
+
+
+IP: 10.1.3.93
+
+
+IP: 10.1.3.94
+
+
+IP: 10.1.3.95
+
+
+IP: 10.1.3.96
+
+
+IP: 10.1.3.97
+
+
+IP: 10.1.3.98
+
+
+IP: 10.1.3.100
+
+
+IP: 10.1.3.101
+
+
+IP: 10.1.3.103
+
+
+IP: 10.1.3.104
+
+
+IP: 10.1.3.105
+
+
+IP: 10.1.3.107
+
+
+IP: 10.1.3.108
+
+
+IP: 10.1.3.109
+
+
+IP: 10.1.3.110
+
+
+IP: 10.1.3.112
+
+
+IP: 10.1.3.113
+
+
+IP: 10.1.3.114
+
+
+IP: 10.1.3.115
+
+
+IP: 10.1.3.116
+
+
+IP: 10.1.3.117
+
+
+IP: 10.1.3.119
+
+
+IP: 10.1.3.122
+
+
+IP: 10.1.3.123
+
+
+IP: 10.1.3.124
+
+
+IP: 10.1.3.125
+
+
+IP: 10.1.3.126
+
+
+IP: 10.1.3.127
+
+
+IP: 10.1.3.128
+
+
+IP: 10.1.3.129
+
+
+IP: 10.1.3.130
+
+
+IP: 10.1.3.131
+
+
+IP: 10.1.3.132
+
+
+IP: 10.1.3.133
+
+
+IP: 10.1.3.134
+
+
+IP: 10.1.3.135
+
+
+IP: 10.1.3.136
+
+
+IP: 10.1.3.138
+
+
+IP: 10.1.3.144
+
+
+IP: 10.1.3.145
+
+
+IP: 10.1.3.147
+
+
+IP: 10.1.3.150
+
+
+IP: 10.1.3.153
+
+
+IP: 10.1.3.154
+
+
+IP: 10.1.3.155
+
+
+IP: 10.1.3.156
+
+
+IP: 10.1.3.157
+
+
+IP: 10.1.3.158
+
+
+IP: 10.1.3.159
+
+
+IP: 10.1.3.161
+
+
+IP: 10.1.3.162
+
+
+IP: 10.1.3.163
+
+
+IP: 10.1.3.164
+
+
+IP: 10.1.3.165
+
+
+IP: 10.1.3.166
+
+
+IP: 10.1.3.167
+
+
+IP: 10.1.3.168
+
+
+IP: 10.1.3.169
+
+
+IP: 10.1.3.170
+
+
+IP: 10.1.3.171
+
+
+IP: 10.1.3.172
+
+
+IP: 10.1.3.173
+
+
+IP: 10.1.3.174
+
+
+IP: 10.1.3.175
+
+
+IP: 10.1.3.176
+
+
+IP: 10.1.3.177
+
+
+IP: 10.1.3.178
+
+
+IP: 10.1.3.179
+
+
+IP: 10.1.3.180
+
+
+IP: 10.1.3.181
+
+
+IP: 10.1.3.182
+
+
+IP: 10.1.3.183
+
+
+IP: 10.1.3.184
+
+
+IP: 10.1.3.185
+
+
+IP: 10.1.3.186
+
+
+IP: 10.1.3.187
+
+
+IP: 10.1.3.188
+
+
+IP: 10.1.3.189
+
+
+IP: 10.1.3.190
+
+
+IP: 10.1.3.191
+
+
+IP: 10.1.3.192
+
+
+IP: 10.1.3.193
+
+
+IP: 10.1.3.194
+
+
+IP: 10.1.3.195
+
+
+IP: 10.1.3.196
+
+
+IP: 10.1.3.197
+
+
+IP: 10.1.3.198
+
+
+IP: 10.1.3.199
+
+
+IP: 10.1.3.200
+
+
+IP: 10.1.3.201
+
+
+IP: 10.1.3.202
+
+
+IP: 10.1.3.203
+
+
+IP: 10.1.3.204
+
+
+IP: 10.1.3.205
+
+
+IP: 10.1.3.206
+
+
+IP: 10.1.3.207
+
+
+IP: 10.1.3.208
+
+
+IP: 10.1.3.209
+
+
+IP: 10.1.3.210
+
+
+IP: 10.1.3.211
+
+
+IP: 10.1.3.212
+
+
+IP: 10.1.3.213
+
+
+IP: 10.1.3.214
+
+
+IP: 10.1.3.215
+
+
+IP: 10.1.3.216
+
+
+IP: 10.1.3.217
+
+
+IP: 10.1.3.218
+
+
+IP: 10.1.3.219
+
+
+IP: 10.1.3.220
+
+
+IP: 10.1.3.221
+
+
+IP: 10.1.3.222
+
+
+IP: 10.1.3.223
+
+
+IP: 10.1.3.224
+
+
+IP: 10.1.3.225
+
+
+IP: 10.1.3.226
+
+
+IP: 10.1.3.227
+
+
+IP: 10.1.3.228
+
+
+IP: 10.1.3.229
+
+
+IP: 10.1.3.233
+
+
+IP: 10.1.3.234
+
+
+IP: 10.1.3.235
+
+
+IP: 10.1.3.236
+
+
+IP: 10.1.3.237
+
+
+IP: 10.1.3.238
+
+
+IP: 10.1.3.239
+
+
+IP: 10.1.3.241
+
+
+IP: 10.1.3.242
+
+
+IP: 10.1.3.243
+
+
+IP: 10.1.3.244
+
+
+IP: 10.1.3.245
+
+
+IP: 10.1.3.246
+
+
+IP: 10.1.3.247
+
+
+IP: 10.1.3.248
+
+
+IP: 10.1.3.251
+
+
+IP: 10.1.3.252
+
+
+IP: 10.1.3.253
+
+
+IP: 10.1.3.254
+
+
+IP: 10.1.3.255
+
+
+IP: 10.1.3.63
+PORT     STATE SERVICE    VERSION
+5060/tcp open  sip        Mitel SIP phone sipd 06.04.00.10 (model: 5324)
+5061/tcp open  tcpwrapped
+
+
+IP: 10.1.3.64
+PORT     STATE SERVICE    VERSION
+5060/tcp open  sip        Mitel SIP phone sipd 06.04.00.10 (model: 5324)
+5061/tcp open  tcpwrapped
+
+
+IP: 10.1.3.65
+PORT     STATE SERVICE    VERSION
+5060/tcp open  sip        Mitel SIP phone sipd 06.04.00.10 (model: 5324)
+5061/tcp open  tcpwrapped
+
+
+IP: 10.1.3.66
+PORT     STATE SERVICE    VERSION
+5060/tcp open  sip        Mitel SIP phone sipd 06.04.00.10 (model: 5324)
+5061/tcp open  tcpwrapped
+
+
+IP: 10.1.3.67
+PORT     STATE SERVICE    VERSION
+5060/tcp open  sip        Mitel SIP phone sipd 06.04.00.10 (model: 5324)
+5061/tcp open  tcpwrapped
+
+
+IP: 10.1.3.68
+PORT     STATE SERVICE    VERSION
+5060/tcp open  sip        Mitel SIP phone sipd 06.04.00.10 (model: 5324)
+5061/tcp open  tcpwrapped
+
+
+IP: 10.1.3.88
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: PRINET)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49178/tcp open  msrpc        Microsoft Windows RPC
+57294/tcp open  msrpc        Microsoft Windows RPC
+57337/tcp open  unknown
+
+
+IP: 10.1.3.99
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds    Microsoft Windows XP microsoft-ds
+2551/tcp open  isg-uda-server?
+
+
+IP: 10.1.3.102
+PORT      STATE SERVICE     VERSION
+135/tcp   open  msrpc       Microsoft Windows RPC
+139/tcp   open  netbios-ssn Microsoft Windows netbios-ssn
+445/tcp   open  tcpwrapped
+6129/tcp  open  damewaremr  DameWare Mini Remote Control
+49152/tcp open  msrpc       Microsoft Windows RPC
+49153/tcp open  msrpc       Microsoft Windows RPC
+49154/tcp open  msrpc       Microsoft Windows RPC
+49155/tcp open  msrpc       Microsoft Windows RPC
+49156/tcp open  msrpc       Microsoft Windows RPC
+49180/tcp open  msrpc       Microsoft Windows RPC
+65018/tcp open  msrpc       Microsoft Windows RPC
+65024/tcp open  msrpc       Microsoft Windows RPC
+
+
+IP: 10.1.3.106
+PORT     STATE SERVICE      VERSION
+37/tcp   open  time         (32 bits)
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Microsoft Windows XP microsoft-ds
+4491/tcp open  unknown
+
+
+IP: 10.1.3.111
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: PRINET)
+7955/tcp  open  unknown
+12882/tcp open  unknown
+12883/tcp open  unknown
+49152/tcp open  unknown
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  upnp         Portable SDK for UPnP devices 1.4.7 (Windows 6.2.9200 2; UPnP 1.0)
+63309/tcp open  msrpc        Microsoft Windows RPC
+63321/tcp open  msrpc        Microsoft Windows RPC
+63333/tcp open  msrpc        Microsoft Windows RPC
+
+
+IP: 10.1.3.118
+PORT    STATE SERVICE      VERSION
+21/tcp  open  tcpwrapped
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Microsoft Windows XP microsoft-ds
+
+
+IP: 10.1.3.120
+PORT      STATE    SERVICE     VERSION
+135/tcp   open     tcpwrapped
+139/tcp   open     tcpwrapped
+445/tcp   open     tcpwrapped
+949/tcp   filtered unknown
+1935/tcp  open     tcpwrapped
+2788/tcp  filtered fryeserv
+3738/tcp  filtered versatalk
+5040/tcp  open     tcpwrapped
+5357/tcp  open     tcpwrapped
+6129/tcp  open     tcpwrapped
+6517/tcp  filtered unknown
+6747/tcp  filtered unknown
+7411/tcp  filtered daqstream
+7955/tcp  open     tcpwrapped
+8005/tcp  filtered mxi
+8691/tcp  filtered unknown
+9089/tcp  filtered sqlexec-ssl
+9211/tcp  filtered oma-mlp-s
+10225/tcp filtered unknown
+10635/tcp filtered unknown
+11250/tcp filtered unknown
+11784/tcp filtered unknown
+12882/tcp open     tcpwrapped
+12883/tcp open     tcpwrapped
+13757/tcp filtered unknown
+13878/tcp filtered unknown
+17532/tcp filtered unknown
+20641/tcp filtered unknown
+21056/tcp filtered unknown
+21080/tcp filtered unknown
+30627/tcp filtered unknown
+32754/tcp filtered unknown
+34362/tcp filtered unknown
+37540/tcp filtered unknown
+39036/tcp filtered unknown
+40027/tcp filtered unknown
+41114/tcp filtered unknown
+48009/tcp filtered unknown
+48718/tcp filtered unknown
+49152/tcp open     tcpwrapped
+49582/tcp filtered unknown
+49664/tcp open     tcpwrapped
+49665/tcp open     tcpwrapped
+49666/tcp open     tcpwrapped
+49667/tcp open     tcpwrapped
+49668/tcp open     tcpwrapped
+49669/tcp open     tcpwrapped
+49677/tcp open     tcpwrapped
+49680/tcp open     tcpwrapped
+49863/tcp filtered unknown
+50042/tcp filtered unknown
+55192/tcp filtered unknown
+55433/tcp filtered unknown
+56505/tcp filtered unknown
+56917/tcp filtered unknown
+59689/tcp filtered unknown
+61317/tcp filtered unknown
+62340/tcp filtered unknown
+
+
+IP: 10.1.3.121
+PORT     STATE SERVICE       VERSION
+21/tcp   open  tcpwrapped
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds  Microsoft Windows XP microsoft-ds
+2836/tcp open  catalyst?
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+
+
+IP: 10.1.3.137
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: PRINET)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  msrpc        Microsoft Windows RPC
+52346/tcp open  msrpc        Microsoft Windows RPC
+64071/tcp open  unknown
+
+
+IP: 10.1.3.139
+PORT      STATE SERVICE    VERSION
+135/tcp   open  tcpwrapped
+139/tcp   open  tcpwrapped
+445/tcp   open  tcpwrapped
+6129/tcp  open  tcpwrapped
+49152/tcp open  tcpwrapped
+49153/tcp open  tcpwrapped
+49154/tcp open  tcpwrapped
+49155/tcp open  tcpwrapped
+49156/tcp open  tcpwrapped
+49178/tcp open  tcpwrapped
+54925/tcp open  tcpwrapped
+54935/tcp open  tcpwrapped
+55017/tcp open  tcpwrapped
+55039/tcp open  tcpwrapped
+
+
+IP: 10.1.3.140
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: PRINET)
+1025/tcp open  msrpc        Microsoft Windows RPC
+1026/tcp open  msrpc        Microsoft Windows RPC
+1027/tcp open  msrpc        Microsoft Windows RPC
+1028/tcp open  msrpc        Microsoft Windows RPC
+1029/tcp open  msrpc        Microsoft Windows RPC
+1055/tcp open  msrpc        Microsoft Windows RPC
+1411/tcp open  java-rmi     Java RMI
+1412/tcp open  java-rmi     Java RMI
+3092/tcp open  msrpc        Microsoft Windows RPC
+7316/tcp open  swx?
+
+
+IP: 10.1.3.141
+PORT      STATE SERVICE    VERSION
+135/tcp   open  tcpwrapped
+139/tcp   open  tcpwrapped
+445/tcp   open  tcpwrapped
+49152/tcp open  tcpwrapped
+49155/tcp open  tcpwrapped
+49156/tcp open  tcpwrapped
+61012/tcp open  tcpwrapped
+
+
+IP: 10.1.3.142
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: PRINET)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49181/tcp open  msrpc        Microsoft Windows RPC
+56481/tcp open  java-rmi     Java RMI
+56482/tcp open  java-rmi     Java RMI
+56927/tcp open  msrpc        Microsoft Windows RPC
+
+
+IP: 10.1.3.143
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+139/tcp   open     netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open     microsoft-ds  Microsoft Windows 7 - 10 microsoft-ds (workgroup: PRINET)
+831/tcp   filtered netconf-beep
+1734/tcp  filtered cambertx-lm
+2798/tcp  filtered tmesis-upshot
+3264/tcp  filtered ccmail
+7877/tcp  filtered unknown
+7890/tcp  open     tcpwrapped
+10091/tcp filtered unknown
+10681/tcp filtered unknown
+11679/tcp filtered unknown
+12301/tcp filtered unknown
+13996/tcp filtered unknown
+14693/tcp filtered unknown
+19004/tcp filtered unknown
+19538/tcp filtered unknown
+20923/tcp filtered unknown
+21574/tcp filtered unknown
+23712/tcp filtered unknown
+24623/tcp filtered unknown
+24899/tcp filtered unknown
+25194/tcp filtered unknown
+26909/tcp filtered unknown
+28333/tcp filtered unknown
+29096/tcp filtered unknown
+29328/tcp filtered unknown
+29806/tcp filtered unknown
+29813/tcp filtered unknown
+30992/tcp filtered unknown
+31053/tcp filtered unknown
+31994/tcp filtered unknown
+32503/tcp filtered unknown
+33384/tcp filtered unknown
+36221/tcp filtered unknown
+39778/tcp filtered unknown
+44527/tcp filtered unknown
+44777/tcp filtered unknown
+45653/tcp filtered unknown
+46009/tcp filtered unknown
+48608/tcp filtered unknown
+49152/tcp open     msrpc         Microsoft Windows RPC
+49153/tcp open     msrpc         Microsoft Windows RPC
+49154/tcp open     msrpc         Microsoft Windows RPC
+49155/tcp open     msrpc         Microsoft Windows RPC
+49156/tcp open     msrpc         Microsoft Windows RPC
+49157/tcp open     msrpc         Microsoft Windows RPC
+49626/tcp filtered unknown
+49714/tcp filtered unknown
+49789/tcp open     unknown
+49905/tcp filtered unknown
+50660/tcp filtered unknown
+50674/tcp filtered unknown
+53572/tcp filtered unknown
+58229/tcp filtered unknown
+59299/tcp open     msrpc         Microsoft Windows RPC
+63787/tcp filtered unknown
+64519/tcp filtered unknown
+
+
+IP: 10.1.3.146
+PORT      STATE SERVICE    VERSION
+135/tcp   open  tcpwrapped
+139/tcp   open  tcpwrapped
+445/tcp   open  tcpwrapped
+49665/tcp open  tcpwrapped
+49668/tcp open  tcpwrapped
+49670/tcp open  tcpwrapped
+49680/tcp open  tcpwrapped
+58321/tcp open  tcpwrapped
+
+
+IP: 10.1.3.148
+PORT      STATE SERVICE    VERSION
+135/tcp   open  tcpwrapped
+139/tcp   open  tcpwrapped
+445/tcp   open  tcpwrapped
+49665/tcp open  tcpwrapped
+49666/tcp open  tcpwrapped
+49668/tcp open  tcpwrapped
+49670/tcp open  tcpwrapped
+49685/tcp open  tcpwrapped
+51568/tcp open  tcpwrapped
+51733/tcp open  tcpwrapped
+53198/tcp open  tcpwrapped
+
+
+IP: 10.1.3.149
+PORT     STATE SERVICE    VERSION
+1025/tcp open  tcpwrapped
+1026/tcp open  tcpwrapped
+1027/tcp open  tcpwrapped
+1028/tcp open  tcpwrapped
+1029/tcp open  tcpwrapped
+1030/tcp open  tcpwrapped
+1984/tcp open  tcpwrapped
+1985/tcp open  tcpwrapped
+3556/tcp open  tcpwrapped
+5707/tcp open  tcpwrapped
+9275/tcp open  tcpwrapped
+
+
+IP: 10.1.3.151
+PORT      STATE    SERVICE         VERSION
+135/tcp   open     tcpwrapped
+139/tcp   open     tcpwrapped
+445/tcp   open     tcpwrapped
+1232/tcp  filtered first-defense
+1462/tcp  filtered world-lm
+3824/tcp  filtered acp-policy
+7093/tcp  filtered unknown
+8066/tcp  filtered toad-bi-appsrvr
+9461/tcp  filtered unknown
+9480/tcp  filtered unknown
+9571/tcp  filtered unknown
+9953/tcp  filtered acis
+10822/tcp filtered unknown
+13964/tcp filtered unknown
+15568/tcp filtered unknown
+15626/tcp filtered unknown
+16206/tcp filtered unknown
+17135/tcp filtered unknown
+18389/tcp filtered unknown
+21860/tcp filtered unknown
+22843/tcp filtered unknown
+25473/tcp filtered unknown
+30139/tcp filtered unknown
+35329/tcp filtered unknown
+35658/tcp filtered unknown
+39197/tcp filtered unknown
+41009/tcp filtered unknown
+41214/tcp filtered unknown
+41912/tcp filtered unknown
+42273/tcp filtered unknown
+44419/tcp filtered unknown
+44748/tcp filtered unknown
+48608/tcp filtered unknown
+49152/tcp open     tcpwrapped
+49153/tcp open     tcpwrapped
+49154/tcp open     tcpwrapped
+49155/tcp open     tcpwrapped
+49156/tcp open     tcpwrapped
+49157/tcp open     tcpwrapped
+52530/tcp filtered unknown
+56831/tcp filtered unknown
+57091/tcp filtered unknown
+58916/tcp filtered unknown
+60271/tcp filtered unknown
+61959/tcp open     tcpwrapped
+61962/tcp open     tcpwrapped
+62242/tcp filtered unknown
+62345/tcp open     tcpwrapped
+63251/tcp filtered unknown
+63673/tcp open     tcpwrapped
+63674/tcp open     tcpwrapped
+
+
+IP: 10.1.3.152
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+5040/tcp  open  unknown
+6129/tcp  open  damewaremr    DameWare Mini Remote Control
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49670/tcp open  msrpc         Microsoft Windows RPC
+49680/tcp open  msrpc         Microsoft Windows RPC
+52067/tcp open  msrpc         Microsoft Windows RPC
+
+
+IP: 10.1.3.160
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: PRINET)
+2291/tcp  open  gcs-clientgw Galaxy Control Systems Client GW
+6129/tcp  open  damewaremr   DameWare Mini Remote Control
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49184/tcp open  msrpc        Microsoft Windows RPC
+50595/tcp open  unknown
+57951/tcp open  msrpc        Microsoft Windows RPC
+
+
+IP: 10.1.3.230
+PORT      STATE SERVICE      VERSION
+22/tcp    open  ssh          OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+53/tcp    open  domain       ISC BIND 9.16.1 (Ubuntu Linux)
+88/tcp    open  kerberos-sec (server time: 2023-09-13 03:47:12Z)
+135/tcp   open  msrpc?
+139/tcp   open  netbios-ssn  Samba smbd 4.6.2
+389/tcp   open  ldap         (Anonymous bind OK)
+445/tcp   open  netbios-ssn  Samba smbd 4.6.2
+464/tcp   open  kpasswd5?
+636/tcp   open  ssl/ldap     (Anonymous bind OK)
+3268/tcp  open  ldap         (Anonymous bind OK)
+3269/tcp  open  ssl/ldap     (Anonymous bind OK)
+8443/tcp  open  ssl/http     nginx
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  msrpc        Microsoft Windows RPC
+
+
+IP: 10.1.3.231
+PORT      STATE    SERVICE        VERSION
+53/tcp    open     domain         Microsoft DNS 6.0.6003 (1773501D)
+88/tcp    open     spark          Apache Spark
+135/tcp   open     msrpc          Microsoft Windows RPC
+389/tcp   open     ldap
+445/tcp   open     microsoft-ds   Microsoft Windows 2003 or 2008 microsoft-ds
+464/tcp   open     kpasswd5?
+593/tcp   open     ncacn_http     Microsoft Windows RPC over HTTP 1.0
+636/tcp   open     tcpwrapped
+1530/tcp  filtered rap-service
+2396/tcp  filtered wusage
+3268/tcp  open     ldap           Microsoft Windows Active Directory LDAP (Domain: prig.gesnet.cu, Site: Default-First-Site-Name)
+3269/tcp  open     tcpwrapped
+3389/tcp  open     ms-wbt-server?
+4912/tcp  filtered lutap
+5357/tcp  open     http           Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+6129/tcp  open     damewaremr     DameWare Mini Remote Control
+6171/tcp  filtered unknown
+6902/tcp  filtered unknown
+8624/tcp  filtered unknown
+9695/tcp  filtered ccnx
+13101/tcp filtered unknown
+14171/tcp filtered unknown
+25793/tcp filtered vocaltec-hos
+27615/tcp filtered unknown
+27675/tcp filtered unknown
+28877/tcp filtered unknown
+30772/tcp filtered unknown
+31524/tcp filtered unknown
+34292/tcp filtered unknown
+35582/tcp filtered unknown
+37787/tcp filtered unknown
+38926/tcp filtered unknown
+41285/tcp filtered unknown
+42754/tcp filtered unknown
+42756/tcp filtered unknown
+44777/tcp filtered unknown
+44903/tcp filtered unknown
+45308/tcp filtered unknown
+46869/tcp filtered unknown
+48493/tcp filtered unknown
+48541/tcp filtered unknown
+49043/tcp filtered unknown
+49152/tcp open     msrpc          Microsoft Windows RPC
+49153/tcp open     msrpc          Microsoft Windows RPC
+49154/tcp open     msrpc          Microsoft Windows RPC
+49155/tcp open     msrpc          Microsoft Windows RPC
+49157/tcp open     ncacn_http     Microsoft Windows RPC over HTTP 1.0
+49158/tcp open     msrpc          Microsoft Windows RPC
+49163/tcp open     msrpc          Microsoft Windows RPC
+49168/tcp open     msrpc          Microsoft Windows RPC
+49184/tcp open     msrpc          Microsoft Windows RPC
+49239/tcp open     msrpc          Microsoft Windows RPC
+49620/tcp filtered unknown
+51380/tcp filtered unknown
+55846/tcp filtered unknown
+55917/tcp filtered unknown
+58704/tcp filtered unknown
+59340/tcp filtered unknown
+59522/tcp filtered unknown
+59879/tcp filtered unknown
+61090/tcp filtered unknown
+61243/tcp filtered unknown
+62592/tcp filtered unknown
+64295/tcp filtered unknown
+64400/tcp filtered unknown
+64817/tcp filtered unknown
+
+
+IP: 10.1.3.232
+PORT      STATE SERVICE            VERSION
+80/tcp    open  http               Microsoft IIS httpd 8.0
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+1025/tcp  open  msrpc              Microsoft Windows RPC
+1026/tcp  open  msrpc              Microsoft Windows RPC
+1027/tcp  open  msrpc              Microsoft Windows RPC
+1028/tcp  open  msrpc              Microsoft Windows RPC
+1031/tcp  open  msrpc              Microsoft Windows RPC
+1116/tcp  open  ardus-cntl?
+1284/tcp  open  msrpc              Microsoft Windows RPC
+1293/tcp  open  msrpc              Microsoft Windows RPC
+3389/tcp  open  ssl/ms-wbt-server?
+5985/tcp  open  http               Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+8060/tcp  open  aero?
+8061/tcp  open  ssl/unknown
+8530/tcp  open  http               Microsoft IIS httpd 8.0
+8531/tcp  open  unknown
+47001/tcp open  http               Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+
+
+IP: 10.1.3.240
+PORT      STATE SERVICE      VERSION
+22/tcp    open  ssh          OpenSSH 7.6p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)
+53/tcp    open  domain       ISC BIND 9.11.3-1ubuntu1.18 (Ubuntu Linux)
+88/tcp    open  kerberos-sec Heimdal Kerberos (server time: 2023-09-13 03:49:04Z)
+135/tcp   open  msrpc?
+139/tcp   open  netbios-ssn  Samba smbd 3.X - 4.X (workgroup: PRINET)
+389/tcp   open  ldap         (Anonymous bind OK)
+445/tcp   open  netbios-ssn  Samba smbd 3.X - 4.X (workgroup: PRINET)
+464/tcp   open  kpasswd5?
+636/tcp   open  ssl/ldap     (Anonymous bind OK)
+3268/tcp  open  ldap         (Anonymous bind OK)
+3269/tcp  open  ssl/ldap     (Anonymous bind OK)
+8443/tcp  open  ssl/http     nginx
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+
+
+IP: 10.1.3.249
+PORT     STATE SERVICE   VERSION
+21/tcp   open  ftp
+23/tcp   open  telnet    (Usually a Cisco/3com switch)
+102/tcp  open  iso-tsap?
+5000/tcp open  telnet    (Usually a Cisco/3com switch)
+5001/tcp open  telnet    (Usually a Cisco/3com switch)
+5010/tcp open  telnet    (Usually a Cisco/3com switch)
+5011/tcp open  telnet    (Usually a Cisco/3com switch)
+5100/tcp open  telnet    (Usually a Cisco/3com switch)
+5101/tcp open  telnet    (Usually a Cisco/3com switch)
+5110/tcp open  telnet    (Usually a Cisco/3com switch)
+5111/tcp open  telnet    (Usually a Cisco/3com switch)
+
+
+IP: 10.1.3.250
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+47001/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49670/tcp open  msrpc         Microsoft Windows RPC
+49671/tcp open  msrpc         Microsoft Windows RPC
+49672/tcp open  msrpc         Microsoft Windows RPC
