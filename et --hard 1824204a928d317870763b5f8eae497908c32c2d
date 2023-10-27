@@ -1,0 +1,29 @@
+[33mcommit 1824204a928d317870763b5f8eae497908c32c2d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Abel Gómez Méndez <abelmetaltele@gmail.com>
+Date:   Thu Oct 26 06:23:56 2023 -0400
+
+    commit con correcta descarga del txt con los puertos abiertos por cada IP
+
+[33mcommit ec35a2f61f7f6b62753895b702126dd804f9ff8e[m
+Author: Abel Gómez Méndez <abelmetaltele@gmail.com>
+Date:   Mon Oct 23 06:51:40 2023 -0400
+
+    commit con link de descarga en la web
+
+[33mcommit 2ddbf5df98259a637e810b256f94d2d898d97e7b[m
+Author: Abel Gómez Méndez <abelmetaltele@gmail.com>
+Date:   Mon Oct 23 06:18:22 2023 -0400
+
+    commit de carga del xml
+
+[33mcommit ca37054fa7b05b7367ece6d1f1fc67bb4c4ca279[m
+Author: Abel Gómez Méndez <abelmetaltele@gmail.com>
+Date:   Sun Oct 22 16:26:37 2023 -0400
+
+    commit con streamlit instalado
+
+[33mcommit 2a321533c2170887c363e8d782bbf91c82b50551[m
+Author: Abel Gómez Méndez <abelmetaltele@gmail.com>
+Date:   Sun Oct 22 16:11:56 2023 -0400
+
+    commit inicial
