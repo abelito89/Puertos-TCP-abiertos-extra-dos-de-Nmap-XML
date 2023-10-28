@@ -54,6 +54,8 @@ def main():
         if button2:
             # Llama a parse_txt y write_to_txt con el archivo de salida de txt_to_IP
             ip_dict = txt_to_port.parse_txt(output_file)
+            if ip_dict == {'default': []}:
+                st.write("No existen puertos TCP abiertos en la red")
             txt_to_port.write_to_txt(ip_dict, 'IP_por_cada_puerto_abierto.txt')
             
             with open('IP_por_cada_puerto_abierto.txt', 'r') as f:

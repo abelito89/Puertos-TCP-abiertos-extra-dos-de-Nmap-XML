@@ -21,7 +21,7 @@ def parse_txt(file_path):
         if 'IP: ' in line:
             ip = line.split(': ')[1]
         # Busca la barra en la línea para identificar los números de puerto
-        elif '/' in line and 'toto' in line:  
+        elif '/' in line and 'open' in line:  
             port = line.split('/')[0]
             if port not in ip_dict:
                 ip_dict[port] = [ip]
