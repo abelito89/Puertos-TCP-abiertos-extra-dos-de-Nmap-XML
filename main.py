@@ -23,6 +23,7 @@ import sys
 sys.path.append("C:\\Abel\\Trabajo\Proyectos Ciencia de Datos\\XML to txt Puertos TCP Nmap\\src")
 import xml_to_txt
 import txt_to_IP
+import txt_to_port
 import base64
 
 def main():
@@ -38,8 +39,9 @@ def main():
         linko= f'<a href="data:file/txt;base64,{b64}" download="txt_generado_del_xml.txt">Descargar archivo TXT</a>'
         st.markdown(linko, unsafe_allow_html=True)
         button = st.button("Listado de puertos TCP abiertos en cada IP")
+        output_file = txt_to_IP.txt_to_IP(text, 'IP_con_puertos_abiertos.txt')
         if button:
-            output_file = txt_to_IP.txt_to_IP(text, 'IP_con_puertos_abiertos.txt')
+            
             with open(output_file, 'r') as f:
                 contenido_txt_from_XML = f.read()
             st.download_button(
@@ -48,7 +50,20 @@ def main():
             file_name="IP_con_puertos_abiertos.txt",
             mime="text/plain",
             )
-
+        button2 = st.button("Ver resumen de puertos abiertos y los IP")
+        if button2:
+            # Llama a parse_txt y write_to_txt con el archivo de salida de txt_to_IP
+            ip_dict = txt_to_port.parse_txt(output_file)
+            txt_to_port.write_to_txt(ip_dict, 'IP_por_cada_puerto_abierto.txt')
+            
+            with open('IP_por_cada_puerto_abierto.txt', 'r') as f:
+                contenido_IP_por_puerto = f.read()
+            st.download_button(
+            label="Descargar archivo TXT",
+            data=contenido_IP_por_puerto,
+            file_name="IP_por_cada_puerto_abierto.txt",
+            mime="text/plain",
+            )       
 
 
     
