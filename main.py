@@ -16,8 +16,6 @@ Esta línea de código crea un enlace de descarga para el archivo de texto. Aqu�
 download="txt_generado_del_xml.txt": Esto hace que al hacer clic en el enlace, los datos se descarguen como un archivo llamado “txt_generado_del_xml.txt”.
 Descargar archivo TXT: Este es el texto que se mostrará para el enlace.
 '''
-
-
 import streamlit as st
 import sys
 sys.path.append("C:\\Abel\\Trabajo\Proyectos Ciencia de Datos\\XML to txt Puertos TCP Nmap\\src")
@@ -27,6 +25,24 @@ import txt_to_port
 import base64
 
 def main():
+    """
+    Función principal que se ejecuta cuando se inicia el script. Utiliza la biblioteca Streamlit para crear una interfaz de usuario interactiva en la web.
+
+    La interfaz de usuario solicita al usuario que cargue un archivo XML. Una vez cargado, el archivo se procesa utilizando la función `xml_to_txt`, 
+    que extrae el texto de cada elemento del archivo XML y lo devuelve como una cadena de texto.
+
+    El usuario tiene la opción de descargar este texto como un archivo .txt. Además, el usuario puede presionar un botón para procesar este texto con la función `txt_to_IP`, 
+    que busca direcciones IP y detalles de puertos TCP abiertos en el texto y escribe esta información en un archivo de salida.
+
+    Finalmente, el usuario puede presionar otro botón para procesar el archivo de salida de `txt_to_IP` con las funciones `parse_txt` y `write_to_txt`, 
+    que crean un resumen de los puertos abiertos y las direcciones IP asociadas y escriben esta información en otro archivo de salida.
+
+    Parámetros:
+    Ninguno
+
+    Devuelve:
+    Ninguno
+    """
     st.title('Cargador de archivos XML')
 
     # Solicitar la carga del archivo XML

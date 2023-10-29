@@ -1,6 +1,16 @@
 import re
 
 def txt_to_IP(text, output_file):
+    """
+    Procesa un texto que contiene informes de escaneo de Nmap, extrae las direcciones IP y los detalles de los puertos TCP abiertos, y escribe esta información en un archivo de salida.
+
+    Parámetros:
+    text (str): El texto que se va a procesar, que debe contener informes de escaneo de Nmap y que debe ser la salida de la función xml_to_txt.xml_to_txt
+    output_file (str): La ruta al archivo de texto donde se va a escribir la información.
+
+    Devuelve:
+    str: La ruta al archivo de texto donde se ha escrito la información.
+    """
     lines = text.split('\n')
     result = ''
     ip_lines = []
