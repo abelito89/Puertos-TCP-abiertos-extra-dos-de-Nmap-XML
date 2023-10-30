@@ -35,3 +35,6 @@ Las contribuciones son bienvenidas. Por favor, abre un issue para discutir lo qu
 ## Licencia
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Web de la aplicación en producción
+https://mainpy-cynghvvqwxu9zkq4ettwx6.streamlit.app/
