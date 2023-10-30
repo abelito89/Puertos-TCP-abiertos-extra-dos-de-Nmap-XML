@@ -16,9 +16,12 @@ Esta línea de código crea un enlace de descarga para el archivo de texto. Aqu�
 download="txt_generado_del_xml.txt": Esto hace que al hacer clic en el enlace, los datos se descarguen como un archivo llamado “txt_generado_del_xml.txt”.
 Descargar archivo TXT: Este es el texto que se mostrará para el enlace.
 '''
+import os
 import streamlit as st
 import sys
-sys.path.append("C:\\Abel\\Trabajo\Proyectos Ciencia de Datos\\XML to txt Puertos TCP Nmap\\src")
+cwd = os.getcwd()
+# Agregar la ruta relativa `src` al directorio actual
+sys.path.append(os.path.join(cwd, "src"))
 import xml_to_txt
 import txt_to_IP
 import txt_to_port
